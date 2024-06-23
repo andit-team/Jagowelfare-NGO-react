@@ -16,7 +16,7 @@ import EventDetailsPage from "./page/EventDetails";
 import MakeDonationPage from "./page/MakeDonation";
 import BlogMainPage from "./page/Blog";
 import Causes from "./page/Causes";
-import CausesDetsils from "./page/CausesDetsils";
+import CausesDetailMain from "./page/CausesDetsils";
 import GalleryPage from "./page/Gallery";
 import NewsPage from "./page/News";
 import NewsDetailsPage from "./page/NewsDetails";
@@ -43,7 +43,7 @@ const App = () => {
         <Route path="/make-donation" element={<MakeDonationPage />} />
         <Route path="/blog" element={<BlogMainPage />} />
         <Route path="/causes" element={<Causes />} />
-        <Route path="/cause-details" element={<CausesDetsils />} />
+        <Route path="/cause-details" element={<CausesDetailMain />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/news-details" element={<NewsDetailsPage />} />

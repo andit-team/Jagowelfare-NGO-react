@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 {FooterData.map((data, index) =>(
                       <div className="col-lg-2 col-md-6 col-sm-12 col-12" key={index}>
-                      <div className="footer_navitem_ara">
+                      <div className="footer_navItem_ara">
                           <h3>{data.heading}</h3>
                           <div className="nav_item_footer">
                               <ul>
@@ -39,7 +39,7 @@ const Footer = () => {
                 ))}
 
                 <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div className="footer_navitem_ara">
+                    <div className="footer_navItem_ara">
                         <h3>Latest tweets</h3>
                         <div className="footer_twitter_area"e>
                             <Link to="#!" className="footer_twit_title"><i className="fab fa-twitter"></i> #digitalmarketing</Link>

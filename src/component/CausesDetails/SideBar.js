@@ -92,13 +92,13 @@ const SideBar = () => {
     ]
   return (
     <>
-      <div class="col-lg-4">
-        <div class="sidebar_first">
-          <div class="project_organizer_wrapper sidebar_boxed">
-            <div class="project_organizer_img">
+      <div className="col-lg-4">
+        <div className="sidebar_first">
+          <div className="project_organizer_wrapper sidebar_boxed">
+            <div className="project_organizer_img">
               <img src={OrganImg} alt="img" />
             </div>
-            <div class="project_organizer_text">
+            <div className="project_organizer_text">
               <h5>Project organizer:</h5>
               <h3>Polin sarika</h3>
               <p>Manager at ABC company</p>
@@ -118,19 +118,19 @@ const SideBar = () => {
               </ul>
             </div>
           </div>
-          <div class="project_recentdonet_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="project_recentdonet_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Recent donations</h3>
             </div>
             {RecentData.map((data, index)=>(
-                 <div class="recent_donet_item" key={index}>
-                 <div class="recent_donet_img">
+                 <div className="recent_donet_item" key={index}>
+                 <div className="recent_donet_img">
                    <Link to="/cause-details">
                      <img src={data.img} alt="img" />
                    </Link>
                  </div>
-                 <div class="recent_donet_text">
-                   <div class="sidebar_inner_heading">
+                 <div className="recent_donet_text">
+                   <div className="sidebar_inner_heading">
                      <h4>
                        <Link to="/cause-details">{data.heading}</Link>
                      </h4>
@@ -142,19 +142,19 @@ const SideBar = () => {
                </div>
             ))}
           </div>
-          <div class="recent_causes_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="recent_causes_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Recent causes</h3>
             </div>
             {CausesData.map((data1, index1) =>(
-                <div class="recent_donet_item" key={index1}>
-                <div class="recent_donet_img">
+                <div className="recent_donet_item" key={index1}>
+                <div className="recent_donet_img">
                   <Link to="/cause-details">
                     <img src={data1.img} alt="img" />
                   </Link>
                 </div>
-                <div class="recent_donet_text">
-                  <div class="sidebar_inner_heading">
+                <div className="recent_donet_text">
+                  <div className="sidebar_inner_heading">
                     <h4>
                       <Link to="/cause-details">
                         {data1.heading}
@@ -168,11 +168,11 @@ const SideBar = () => {
             
           
           </div>
-          <div class="share_causes_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="share_causes_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Share causes</h3>
             </div>
-            <div class="social_icon_sidebar">
+            <div className="social_icon_sidebar">
               <ul>
                 <li>
                   <Link to="#">

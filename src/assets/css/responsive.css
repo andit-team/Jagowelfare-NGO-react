@@ -94,14 +94,14 @@
 }
 
 @media (max-width: 992px) {
-    .middel_area_box_icon {
+    .midi_area_box_icon {
         width: auto;
         margin-right: 20px;
     }
     .team_area_three {
         margin-bottom: 30px;
     }
-    .middel_area_Wrapper_box{
+    .midi_area_Wrapper_box{
         display: flex;
         margin-bottom: 30px;
     }
@@ -146,7 +146,7 @@
         line-height: 38px;
     }
 
-    .newletter_button {
+    .newsletter_button {
         text-align: left;
         padding-top: 30px;
     }
@@ -160,8 +160,8 @@
     }
 
     .banner_one_text {
-        padding-top: 200px;
         padding-bottom: 70px;
+        padding-top: 55px;
     }
 
     .about_top_boxed {
@@ -192,11 +192,11 @@
         margin-bottom: 30px;
     }
 
-    .footer_navitem_ara h3 {
+    .footer_navItem_ara h3 {
         padding-bottom: 15px;
     }
 
-    .footer_navitem_ara {
+    .footer_navItem_ara {
         padding-top: 30px;
     }
 
@@ -235,7 +235,7 @@
         padding-top: 30px;
     }
 
-    .topbar-list-right {
+    .topBar-list-right {
         text-align: center;
     }
 
@@ -243,15 +243,15 @@
         margin-bottom: 0px;
     }
 
-    .footer_navitem_ara {
+    .footer_navItem_ara {
         padding-top: 20px;
     }
 
-    .newletter_text h4 {
+    .newsletter_text h4 {
         left: 0px;
     }
 
-    .newletter_text h4 img {
+    .newsletter_text h4 img {
         display: none;
     }
 }
@@ -267,7 +267,7 @@
         .home_three_banner_button a{
             display: block;
         }
-        .home_three_banner_button .vedio_btn{
+        .home_three_banner_button .video_btn{
            padding-top: 20px;
         }
         
@@ -298,6 +298,7 @@
 
     .section_heading h3 {
         font-size: 18px;
+        margin-bottom: 0;
     }
     .section_heading_two h2 {
         font-size: 30px;
@@ -338,13 +339,32 @@
 }
 
 @media (max-width: 480px) {
+    .event_heading {
+        padding-right: 0px;
+    }
+    .event_para {
+        padding-top: 18px;
+        padding-right: 0;
+    }
+    .event_date {
+        display: none;
+    }
+    .subscribe_text h3 {
+        font-size: 22px;
+        padding-top: 8px;
+        line-height: 29px;
+    }
+    .small_content_padding .event_para {
+        padding-top: 8px;
+        padding-right: 0px;
+    }
     .home_two_banner_button a {
         display: block;
     }
     .home_two_banner_button {
         display: block;
     }
-    .home_two_banner_button  .vedio_btn {
+    .home_two_banner_button  .video_btn {
         margin-left: 0;
         padding-top: 25px;
     }
@@ -355,6 +375,19 @@
     .project_organizer_text {
         padding-left: 0;
         padding-top: 22px;
+    }
+    .about_area_heading_two h2 {
+        line-height: 43px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .video_btn {
+        margin-left: 0;
+        display: block;
+        margin-top: 20px;
+    }
+    .section_heading h2:before {
+        display: none;
     }
 }
 

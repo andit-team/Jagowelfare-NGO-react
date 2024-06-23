@@ -1,7 +1,7 @@
 import React from "react";
 // Import link
 import { Link } from "react-router-dom";
-// Import Social Icom
+// Import Social Icon
 import facebook from "../../assets/img/icon/facebook.png";
 import instagram from "../../assets/img/icon/instagram.png";
 import twitter from "../../assets/img/icon/twitter.png";
@@ -17,7 +17,7 @@ import img3 from "../../assets/img/sidebar/rec-cas-3.png";
 import img4 from "../../assets/img/sidebar/rec-cas-4.png";
 
 const NewsSidebar = () => {
-  const ReceData = [
+  const RecentData = [
     {
       img: img1,
       title: `Stop early marriage and educate
@@ -43,15 +43,15 @@ const NewsSidebar = () => {
 
   return (
     <>
-      <div class="col-lg-4">
-        <div class="sidebar_first">
-          <div class="project_organizer_wrapper sidebar_boxed">
-            <div class="project_organizer_img">
+      <div className="col-lg-4">
+        <div className="sidebar_first">
+          <div className="project_organizer_wrapper sidebar_boxed">
+            <div className="project_organizer_img">
               <img src={Organize} alt="img" />
             </div>
-            <div class="project_organizer_text">
-              <h5>Writte by:</h5>
-              <h3>Polin sarika</h3>
+            <div className="project_organizer_text">
+              <h5>Write by:</h5>
+              <h3>Police Sari</h3>
               <p>Manager at ABC company</p>
               <ul>
                 <li>
@@ -69,19 +69,19 @@ const NewsSidebar = () => {
               </ul>
             </div>
           </div>
-          <div class="recent_causes_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="recent_causes_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Recent news</h3>
             </div>
-            {ReceData.map((data, index) => (
-              <div class="recent_donet_item" key={index}>
-                <div class="recent_donet_img">
+            {RecentData.map((data, index) => (
+              <div className="recent_done_item" key={index}>
+                <div className="recent_done_img">
                   <Link to="#!">
                     <img src={data.img} alt="img" />
                   </Link>
                 </div>
-                <div class="recent_donet_text">
-                  <div class="sidebar_inner_heading">
+                <div className="recent_done_text">
+                  <div className="sidebar_inner_heading">
                     <h4>
                       <Link to="#!">{data.title}</Link>
                     </h4>
@@ -91,11 +91,11 @@ const NewsSidebar = () => {
               </div>
             ))}
           </div>
-          <div class="share_causes_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="share_causes_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Popular tags</h3>
             </div>
-            <div class="popular_tags">
+            <div className="popular_tags">
               <ul>
                 <li>
                   <Link to="#!">Poverty</Link>
@@ -124,11 +124,11 @@ const NewsSidebar = () => {
               </ul>
             </div>
           </div>
-          <div class="share_causes_wrapper sidebar_boxed">
-            <div class="sidebar_heading_main">
+          <div className="share_causes_wrapper sidebar_boxed">
+            <div className="sidebar_heading_main">
               <h3>Share causes</h3>
             </div>
-            <div class="social_icon_sidebar">
+            <div className="social_icon_sidebar">
               <ul>
                 <li>
                   <Link to="#">

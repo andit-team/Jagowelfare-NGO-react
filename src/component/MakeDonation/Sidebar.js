@@ -12,7 +12,7 @@ import img3 from "../../assets/img/sidebar/rec-cas-3.png";
 import img4 from "../../assets/img/sidebar/rec-cas-4.png";
 
 const Sidebar = () => {
-  const ReceData = [
+  const RecentData = [
     {
       img: img1,
       title: `Stop early marriage and educate
@@ -44,8 +44,8 @@ const Sidebar = () => {
               <img src={Organize} alt="img" />
             </div>
             <div className="project_organizer_text">
-              <h5>Writte by:</h5>
-              <h3>Polin sarika</h3>
+              <h5>Write by:</h5>
+              <h3>Police sari</h3>
               <p>Manager at ABC company</p>
               <ul>
                 <li>
@@ -67,14 +67,14 @@ const Sidebar = () => {
             <div className="sidebar_heading_main">
               <h3>Recent news</h3>
             </div>
-            {ReceData.map((data, index) => (
-              <div className="recent_donet_item" key={index}>
-                <div className="recent_donet_img">
+            {RecentData.map((data, index) => (
+              <div className="recent_done_item" key={index}>
+                <div className="recent_done_img">
                   <Link to="#!">
                     <img src={data.img} alt="img" />
                   </Link>
                 </div>
-                <div className="recent_donet_text">
+                <div className="recent_done_text">
                   <div className="sidebar_inner_heading">
                     <h4>
                       <Link to="#!">{data.title}</Link>

@@ -37,9 +37,9 @@ const AboutAres = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
                                 eiusmod tempor incididunt ut labore et simply.</p>
                         </div>
-                        <div className="about_vedio_area">
+                        <div className="about_video_area">
                             <Link to="/about" className="btn btn_theme btn_md">Learn more</Link>
-                            <a href="#!" className="vedio_btn popup-vimeo"><i
+                            <a href="#!" className="video_btn popup-vimeo"><i
                                     className="fa fa-play"></i>How we work</a>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ This files table contents are outlined below>>>>>
 ** Privacy policy Page
 ** Terms Service Page
 ** Testimonials  Page
-** volunter Page
+** vole Page
 ** Preloader
 ** Top TO Bottom
 
@@ -902,18 +902,18 @@ section {
   line-height: 26px;
 }
 
-.about_vedio_area {
+.about_video_area {
   padding-top: 45px;
 }
 
-.vedio_btn {
+.video_btn {
   margin-left: 35px;
   font-size: 18px;
   font-weight: 600;
   color: var(--black-color);
 }
 
-.vedio_btn i {
+.video_btn i {
   height: 50px;
   width: 50px;
   border: 1px solid;
@@ -1138,7 +1138,7 @@ section {
   color: var(--main-color);
 }
 
-.footer_navitem_ara h3 {
+.footer_navItem_ara h3 {
   padding-bottom: 35px;
 }
 
@@ -1567,17 +1567,17 @@ display: flex;
   font-weight: 500;
   padding-bottom: 7px;
 }
-.about_three_progrebar{
+.about_three_progressbar {
   padding-top: 34px;
 }
-.about_three_progrebar .class-full-bar-box .h3-title {
+.about_three_progressbar  .class-full-bar-box .h3-title {
   font-size: 15px;
   line-height: 15px;
   color: var(--black-color);
   font-weight: 600;
   padding-bottom: 0px;
 }
-.about_three_progrebar  .class-full-bar-box {
+.about_three_progressbar   .class-full-bar-box {
   position: relative;
   margin-bottom: 35px;
 }
@@ -1651,57 +1651,57 @@ border-radius: 8px;
 .test_three_icon i{
 color: var(--main-color);
 }
-/* --Middel Area-- */
-#middel_area_wrapper{
+/* --midi Area-- */
+#midi_area_wrapper{
   background-image: url('../img/home-3/common/middel_banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.middel_area_Wrapper_box{
+.midi_area_Wrapper_box{
   display: flex;
 }
-.middel_area_box_icon{
+.midi_area_box_icon{
   width: 35%;
   margin-right: 20px;
 }
-.middel_area_box_text h3{
+.midi_area_box_text h3{
   color:#F5F5F5;
 }
-.middel_area_box_text p{
+.midi_area_box_text p{
   color: #F5F5F5;
   font-weight: 300;
   padding-top: 15px;
   padding-bottom: 13px;
 }
-.middel_area_box_text a{
+.midi_area_box_text a{
   color:#F5F5F5;
 }
 
-.middal_area_center_wrapper{
+.midi_area_center_wrapper{
   background: #FFFFFF;
   box-shadow: 6px 10px 16px rgb(0 0 0 / 8%);
   border-radius: 8px;
   padding: 30px 35px;
   margin-top: 61px;
 }
-.middal_area_center_left h3{
+.midi_area_center_left h3{
   padding-top: 12px;
   font-size: 26px;
   line-height: 39px;
 }
-.middal_area_center_left p{
+.midi_area_center_left p{
   padding-top: 14px;
 }
 
-.middal_area_center_right .donate_two_right_wrapper{
+.midi_area_center_right .donate_two_right_wrapper{
   padding: 0;
   background: transparent;
 }
-.middal_area_center_right .donate_submit_btn{
+.midi_area_center_right .donate_submit_btn{
 padding-top: 5px;
 }
-.middal_area_center_right .donate_form_two form .input-group {
+.midi_area_center_right .donate_form_two form .input-group {
   padding-top: 20px;
 }
 /* --Team Area-- */
@@ -1710,18 +1710,12 @@ padding-top: 5px;
   box-shadow: 8px 10px 24px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-.team_area_three_img{
-
-}
 .team_area_three_img img{
   width: 100%;
 }
 .team_area_three_content{
   padding: 15px 15px;
   text-align: center;
-}
-.team_area_three_content h3{
-
 }
 .team_area_three_content p{
   padding-top: 3px;
@@ -1986,8 +1980,8 @@ margin-bottom: 30px;
   width: auto !important;
 }
 
-/* --middel Banner-- */
-#newletter_banner {
+/* --midi Banner-- */
+#newsletter_banner {
   background-image: url("../img/common/midel_banner.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -1995,7 +1989,7 @@ margin-bottom: 30px;
   padding: 50px 0;
 }
 
-.newletter_text h4 {
+.newsletter_text h4 {
   color: var(--paragraph-color);
   font-size: 16px;
   position: relative;
@@ -2003,16 +1997,16 @@ margin-bottom: 30px;
   top: 0px;
 }
 
-.newletter_text h4 img {
+.newsletter_text h4 img {
   width: 13%;
 }
 
-.newletter_text h2 {
+.newsletter_text h2 {
   font-size: 30px;
   line-height: 40px;
 }
 
-.newletter_button {
+.newsletter_button {
   text-align: right;
 }
 
@@ -2273,16 +2267,16 @@ textarea.form-control {
   color: var(--black-color);
 }
 
-.recent_donet_item {
+.recent_done_item {
   display: flex;
   padding-top: 25px;
 }
 
-.recent_donet_img {
+.recent_done_img {
   width: 25%;
 }
 
-.recent_donet_text {
+.recent_done_text {
   width: 100%;
   padding-left: 15px;
 }
@@ -2311,11 +2305,11 @@ textarea.form-control {
   font-weight: 600;
 }
 
-.recent_donet_text p {
+.recent_done_text p {
   padding-top: 5px;
 }
 
-.recent_donet_text h6 {
+.recent_done_text h6 {
   padding-top: 5px;
   font-weight: 500;
 }
@@ -2329,7 +2323,7 @@ textarea.form-control {
   line-height: 26px;
 }
 
-.recent_causes_wrapper .recent_donet_text h6 {
+.recent_causes_wrapper .recent_done_text h6 {
   padding-top: 10px;
   font-weight: 500;
 }
@@ -2548,6 +2542,12 @@ textarea.form-control {
 /* ----------------------------
     Make a donetion Page
 ---------------------------------*/
+.offcanvas-header-two {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 .sidebar_first .case_boxed_wrapper {
   margin-bottom: 30px;
 }

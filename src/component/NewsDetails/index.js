@@ -108,8 +108,8 @@ const NewsDetailsArea = () => {
                             </a>
                           </div>
                           <p>
-                            Lorem ipsum dolor sit amet, cibo mundi ea duo, vim
-                            exerci phaedrum. There are many variations of
+                            Lorem ipsum dolor sit ame, cib mun ea duo, vim
+                            exe pha. There are many variations of
                             passages of Lorem Ipsum available but the majority.
                           </p>
                         </div>
@@ -126,8 +126,8 @@ const NewsDetailsArea = () => {
                             </a>
                           </div>
                           <p>
-                            Lorem ipsum dolor sit amet, cibo mundi ea duo, vim
-                            exerci phaedrum. There are many variations of
+                            Lorem ipsum dolor sit ipsum dolor sit ea duo, vim
+                            ipsum dolor sit. There are many variations of
                             passages of Lorem Ipsum available but the majority.
                           </p>
                         </div>
